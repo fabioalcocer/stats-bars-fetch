@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="header__balance">
+          <p class="balance__text">My balance</p>
+          <p class="balance__number">$921.48</p>
+        </div>
+        <div class="header__logo"></div>
+      </header>
+
+      <section class="spending">
+        <p class="spending__title">Spending - Last 7 Days</p>
+        <article class="spending__stats">
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="mon"></div>
+            <div class="stat__mount" data-day="mon">$52.46</div>
+            <p class="stat__day">mon</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="tue"></div>
+            <div class="stat__mount" data-day="tue">$52.46</div>
+            <p class="stat__day">tue</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="wed"></div>
+            <div class="stat__mount" data-day="wed">$52.46</div>
+            <p class="stat__day">wed</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="thu"></div>
+            <div class="stat__mount" data-day="thu">$52.46</div>
+            <p class="stat__day">thu</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="fri"></div>
+            <div class="stat__mount" data-day="fri">$52.46</div>
+            <p class="stat__day">fri</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="sat"></div>
+            <div class="stat__mount" data-day="sat">$52.46</div>
+            <p class="stat__day">sat</p>
+          </div>
+          <div class="stats__bar">
+            <div class="stat__bar" data-day="sun"></div>
+            <div class="stat__mount" data-day="sun">$52.46</div>
+            <p class="stat__day">sun</p>
+          </div>
+        </article>
+
+        <footer class="spending__footer">
+          <div class="spending__total">
+            <p class="total__text text">Total this month</p>
+            <p class="total__number">$478.33</p>
+          </div>
+          <div class="spending__last">
+            <div class="last__number">+2.4%</div>
+            <div class="last__text text">from last month</div>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <!-- <div class="attribution">Coded by <a href="#"> Fabio Alcocer</a>.</div> -->
+    <script defer src="./js/main.js"></script>
+  </body>
+</html>
