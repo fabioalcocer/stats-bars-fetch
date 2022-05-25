@@ -29,7 +29,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 ### Links
 - API: [API](./data.json)
 - Solution URL: [Solution](https://github.com/fabioalcocer/stats-bars-fetch)
-- Live Site URL: [Live](https://fabioalcocer.github.io/api-magic-snk/)
+- Live Site URL: [Live](https://fabioalcocer.github.io/stats-bars-fetch/)
 
 ## My process
 
